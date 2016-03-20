@@ -1,4 +1,4 @@
-package frc.team1884.testbot;
+package frc.team1884.offseasonimprovements;
 
 import jaci.openrio.toast.lib.log.Logger;
 import jaci.openrio.toast.lib.module.IterativeModule;
@@ -9,7 +9,7 @@ public class RobotModule extends IterativeModule {
 
     @Override
     public String getModuleName() {
-        return "TestBot";
+        return "OffseasonImprovements";
     }
 
     @Override
@@ -19,7 +19,7 @@ public class RobotModule extends IterativeModule {
 
     @Override
     public void robotInit() {
-        logger = new Logger("TestBot", Logger.ATTR_DEFAULT);
+        logger = new Logger("OffseasonImprovements", Logger.ATTR_DEFAULT);
         //TODO: Module Init
     }
 }
